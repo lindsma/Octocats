@@ -1,3 +1,10 @@
 ul {
   list-style: none;
 }
+
+img[alt*="JohnCreek"],
+img[alt*="leereilly"],
+img[alt*="jeejkang"],
+img[alt*="tonyjaramillo"] {
+  display: none;
+}
