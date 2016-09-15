@@ -1,5 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
 ul {
   list-style: none;
+  position: relative;
 }
 
 img[alt*="JohnCreek"],
@@ -7,4 +12,16 @@ img[alt*="leereilly"],
 img[alt*="jeejkang"],
 img[alt*="tonyjaramillo"] {
   display: none;
+}
+img[alt*="saritocat"],
+img[alt*="topguntocat"],
+img[alt*="carlostocat"] {
+  height: 370px;
+  float: left;
+  margin-left: 25px;
+}
+
+img {
+  border: 1px solid lightgrey;
+  border-radius: 1%;
 }
