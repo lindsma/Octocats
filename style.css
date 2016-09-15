@@ -13,20 +13,27 @@ ul {
   position: relative;
   overflow: hidden;
   padding-left: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
 }
 
 img[alt*="JohnCreek"],
 img[alt*="leereilly"],
 img[alt*="jeejkang"],
 img[alt*="tonyjaramillo"] {
-  display: none;
+  height: 26px;
+  border: none;
+  border-radius: 10%;
 }
 
 img[alt*="saritocat"],
 img[alt*="topguntocat"],
 img[alt*="carlostocat"] {
   height: 400px;
-  margin-left: 25px;
+  margin-left: 10px;
 }
 
 img {
@@ -35,8 +42,12 @@ img {
 }
 
 h3 {
-  display: inline;
   color: #D3D3D3;
+  display: inline;
+}
+
+.octonumber:before {
+  content: "#";
 }
 
 a {
@@ -45,10 +56,13 @@ a {
   color: #373737;
 }
 
+footer cite{
+  display: inline;
+}
+
 footer {
   border-bottom: 1px solid #D3D3D3;
-  width: 30%;
-  margin-left: 25px;
-  margin-bottom: 10px;
+  width: 100%;
+  margin-right: 0;
   padding-bottom: 10px;
 }
