@@ -5,6 +5,8 @@
 ul {
   list-style: none;
   position: relative;
+  overflow: hidden;
+  padding-left: 0;
 }
 
 img[alt*="JohnCreek"],
@@ -13,15 +15,21 @@ img[alt*="jeejkang"],
 img[alt*="tonyjaramillo"] {
   display: none;
 }
+
 img[alt*="saritocat"],
 img[alt*="topguntocat"],
 img[alt*="carlostocat"] {
-  height: 370px;
-  float: left;
+  height: 400px;
   margin-left: 25px;
 }
 
 img {
   border: 1px solid lightgrey;
   border-radius: 1%;
+}
+
+footer {
+  border-bottom: 1px solid #D3D3D3;
+  width: 30%;
+  margin-left: 25px;
 }
